@@ -88,8 +88,8 @@ def get_token():
 #Everytime use new SpotifyOAuth object or you get weird states
 def create_spotify_oauth():
     return SpotifyOAuth(
-        client_id="edd93db216644e8281e1569e50f578c5",
-        client_secret="5b6f2185c3874e1b86d2a9e02a9a154f",
+        client_id="edd93db216644e8281e15263671f578c66272628",
+        client_secret="5b6f21857371783hdjshs4f",
         redirect_uri=url_for('authorize', _external=True), #using url_for so that we dont have to hardcode our website url
         scope="user-library-read")
 
